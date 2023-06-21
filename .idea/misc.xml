@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/drawable/button_normal.xml" value="0.1525" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/drawable/button_pressed.xml" value="0.1525" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/drawable/generated_item_bg.xml" value="0.1125" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/drawable/round_button_homepage.xml" value="0.2" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/drawable/round_button_other.xml" value="0.1125" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/drawable/roundbutton.xml" value="0.1525" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/layout/activity_number.xml" value="0.22" />
+        <entry key="..\:/Users/zaina/Desktop/RandomGenerator/app/src/main/res/layout/listview_layout.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

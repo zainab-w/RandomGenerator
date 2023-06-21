@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:weightSum="7"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/btnNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Number"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Letter"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnYesNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Yes/No"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnRPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Rock/Paper/Scissors"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnCoinFlip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Coin Flip"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Dice"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_homepage"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>

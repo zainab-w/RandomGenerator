@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Number">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_pressed"
+        android:gravity="center"
+        android:text="Generate Number"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="5dp"
+        android:background="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/randomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/generated_item_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="12345"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/layoutMinMax"
+        android:layout_below="@+id/randomNumber"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_normal"
+        android:textColor="@color/black"
+        android:textSize="50sp">
+
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/layoutMinMax"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txtClearHistory"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Min"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"/>
+
+        <EditText
+            android:id="@+id/end"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:hint="Max"
+            android:background="@drawable/button_normal"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHint="@color/grey"
+            android:textColor = "@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtClearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnGenerate"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Clear History"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button_other"
+        android:text="Generate"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>
